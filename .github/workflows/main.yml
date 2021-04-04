@@ -28,7 +28,7 @@ jobs:
       - name: Setup Python
         uses: actions/setup-python@v2.2.1
         with:
-          python-version: 3.7
+          python-version: 3.8
           architecture: x64
       - run: sudo pip install pipenv
       # Runs a single command using the runners shell
