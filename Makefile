@@ -11,7 +11,7 @@ build:
 
 .PHONY: cover
 cover:
-	coverage run --source=. --omit="*/test*" -m pytest
-	coverage report -m
-	coverage html
+	pipenv run coverage run --source=. --omit="*/test*" -m pytest
+	pipenv run coverage report -m
+	pipenv run coverage html
 
