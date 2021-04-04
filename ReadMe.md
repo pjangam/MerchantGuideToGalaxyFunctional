@@ -1,7 +1,7 @@
 Third iteration to solve problem merchant of galaxy in third language.
 
-
-Code coverage: https://pjangam.github.io/MerchantGuideToGalaxyFunctional/
+![Alt text](https://img.shields.io/github/workflow/status/pjangam/MerchantGuideToGalaxyFunctional/CI/main) 
+[![Alt text](./badge.svg)](https://pjangam.github.io/MerchantGuideToGalaxyFunctional/)
 
 merchant-guide-to-galaxy
 ========================

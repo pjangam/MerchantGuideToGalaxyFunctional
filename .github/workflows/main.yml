@@ -33,8 +33,10 @@ jobs:
       - name: install dependencies and run tests
         run: |
           sudo pip install pipenv
-          make build cover
-          mv htmlcov docs
+          make build badge
+          git add badge.svg
+          git commit -m 'updated code coverage badge'
+          git push origin HEAD
       - uses: EndBug/add-and-commit@v7 # You can change this to use a specific version
         with:
           add: 'docs'
@@ -64,5 +66,5 @@ jobs:
           # Arguments for the git tag command (the tag name always needs to be the first word not preceded by an hyphen)
           # Default: ''
           # tag: 'v1.0.0 --force'
-      
-          
+
+
