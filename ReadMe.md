@@ -1,6 +1,6 @@
 Third iteration to solve problem merchant of galaxy in third language.
 
-![Alt text](https://img.shields.io/github/workflow/status/pjangam/MerchantGuideToGalaxyFunctional/CI/main) 
+[![Alt text](https://img.shields.io/github/workflow/status/pjangam/MerchantGuideToGalaxyFunctional/CI/main) ](https://github.com/pjangam/MerchantGuideToGalaxyFunctional/actions/workflows/main.yml)
 [![Alt text](./badge.svg)](https://pjangam.github.io/MerchantGuideToGalaxyFunctional/)
 
 merchant-guide-to-galaxy
