@@ -30,7 +30,10 @@ jobs:
         with:
           python-version: 3.8
           architecture: x64
-      - run: sudo pip install pipenv
-      # Runs a single command using the runners shell
-      - name: Run a one-line script
-        run: pipenv shell && make build cover
+      - name: install dependencies and run tests
+        run: |
+          which python
+          sudo pip install pipenv
+          pipenv shell
+          which python
+          make build cover
