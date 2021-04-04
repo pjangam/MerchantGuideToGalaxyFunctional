@@ -30,7 +30,7 @@ jobs:
         with:
           python-version: 3.7
           architecture: x64
-
+      - run: sudo pip install pipenv
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: make build cover
