@@ -32,7 +32,5 @@ jobs:
           architecture: x64
       - name: install dependencies and run tests
         run: |
-          which python
-          python --version
           sudo pip install pipenv
           make build cover
