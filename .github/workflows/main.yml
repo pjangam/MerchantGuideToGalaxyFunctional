@@ -33,4 +33,4 @@ jobs:
       - run: sudo pip install pipenv
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: make build cover
+        run: pipenv shell && make build cover
