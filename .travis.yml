@@ -1,5 +1,0 @@
-language: python
-install:
-  - make build
-script:
-  - make test
